@@ -1,0 +1,174 @@
+.apps-button {
+	background: url(apps/appsb.png) no-repeat top left;
+	display:block;
+	width:160px;
+	height:49px;
+}
+
+.apps-button:hover {
+	background: url(apps/appsbh.png) no-repeat top left;
+}
+
+.dss-logo-m {
+	background: url(ds/ds.1.png) no-repeat top left;
+	display:block;
+	width:160px;
+	height:190px;
+}
+
+.dss-logo-ms {
+	background: url(ds/dsb.1.png) no-repeat top left;
+	display:block;
+	position:relative;
+	width:160px;
+	height:30px;
+	top:160px;
+}
+
+/*
+.dss-logo-ms:hover {
+	background: url(ds/dsbh.1.png) no-repeat top left;
+}
+*/
+
+.dss-logo-m:hover div.dss-logo-ms {
+	background: url(ds/dsbh.1.png) no-repeat top left;
+}
+
+
+.dss-logo-mb {
+	background: url(ds/dsv.1.png) no-repeat top left;
+	display:block;
+	width:260px;
+	height:260px;
+	float:left;
+	margin-top:15px;
+	margin-bottom:0px;
+	margin-right:20px;
+}
+
+.dss-logo-mbl {
+	background: url(ds/dsvb.1.png) no-repeat top left;
+	display:block;
+	width:260px;
+	height:83px;
+	margin-top:177px;
+}
+
+/*
+.dss-logo-mbl:hover {
+	background: url(ds/dsvbh.1.png) no-repeat top left;
+}
+*/
+
+.dss-logo-mb:hover div.dss-logo-mbl {
+	background: url(ds/dsvbh.1.png) no-repeat top left;
+}
+
+
+div#slides {
+	position:relative;
+	padding:0px;
+	background-color:#fff;
+	margin-bottom:20px
+}
+div#slides div {
+	display:block;
+	width:100px;
+	height:72px;
+	float:left;
+	text-decoration:none;
+}
+div#slides div:hover {background:transparent}
+div#slides div span {display:none}
+div#slides div:hover span {
+	display:inline;
+	position:absolute;
+	top:-485px;
+	left:-20px;
+	width:640px;
+	height:480px;
+	padding:5px 10px;
+}
+.slide3 {background:url(ds/screens/3.jpg) no-repeat top left}
+.slide4 {background:url(ds/screens/4.jpg) no-repeat top left}
+.slide5 {background:url(ds/screens/5.jpg) no-repeat top left}
+.slide6 {background:url(ds/screens/6.jpg) no-repeat top left}
+.slide7 {background:url(ds/screens/7.jpg) no-repeat top left}
+.slide8 {background:url(ds/screens/8.jpg) no-repeat top left}
+.slide9 {background:url(ds/screens/9.jpg) no-repeat top left}
+.slide10 {background:url(ds/screens/10.jpg) no-repeat top left}
+.slide11 {background:url(ds/screens/11.jpg) no-repeat top left}
+.slide12 {background:url(ds/screens/12.jpg) no-repeat top left}
+.slide13 {background:url(ds/screens/13.jpg) no-repeat top left}
+.slide14 {background:url(ds/screens/14.jpg) no-repeat top left}
+
+/*
+   Socialize Icons
+*/
+#socialize_content {padding:10px 10px 10px 0px;margin:0 auto 0 auto !important}
+ul.sidebar_icon_list {margin:0 auto !important;overflow:hidden;}
+ul.sidebar_icon_list img {border:0 none;left:0;position:absolute;top:0;}
+ul.sidebar_icon_list .small {display:inline;left:8px;top:8px;}
+ul.sidebar_icon_list, ul.sidebar_icon_list li {list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0;}
+ul.sidebar_icon_list li {float:left;height:48px;line-height:48px;position:relative;text-align:center;width:60px;}
+ul.sidebar_icon_list li img {opacity:0;vertical-align:middle;}
+ul.sidebar_icon_list li img.small {opacity:1;}
+ul.sidebar_icon_list li img.small2 {opacity:1;}
+ul.sidebar_icon_list li:hover img {opacity:1;}
+ul.sidebar_icon_list li:hover img.small {opacity:0;}
+ul.sidebar_icon_list li:hover img.small2 {opacity:0;}
+ul.sidebar_icon_list li, ul.sidebar_icon_list li img {float:left;}
+ul.sidebar_icon_list li strong {left:-9000px;position:absolute;}
+
+/* EU Cookie Monster Policy BEGIN */
+#eucupcake {
+	display: none;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #666;
+	padding: 7px;
+	z-index: 999999;
+	font-size: 16px;
+	background: rgba(250,250,250,0.7);
+	box-shadow: 0px -3px 6px 0px rgba(0,0,0,0.1);
+	border-radius: 100px 100px 0px 0px;
+}
+#eucupcake p {
+	margin: 0 20px;
+	display: inline-block;
+}
+#eucupcake button {
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	color: #666;
+	background-color: #FFF;
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+	transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+	-webkit-transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	cursor: pointer;
+	margin: 2px 5px 2px 15px;
+	padding: 7px 6px 7px 5px;
+	&:focus {
+		outline: 0;
+	}
+}
+#eucupcake button:hover {
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
+	color: #999;
+}
+#eucupcake a, #eucupcake a:visited {
+	text-decoration: none;
+	color: #333;
+	transition: 200ms color;
+}
+#eucupcake a:hover, #eucupcake a:active {
+	color: #999;
+}
+/* EU Cookie Monster Policy END */

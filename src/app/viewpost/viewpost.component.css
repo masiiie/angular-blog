@@ -1,0 +1,64 @@
+figure{
+    background-color: greenyellow;
+    display: inline-block;
+}
+
+figcaption, .figcap{
+    min-width: 100%;
+    box-sizing: border-box;
+    width: 0px;
+}
+
+/*
+.container {
+    display: inline-block;
+    background-color: greenyellow;
+  }
+  
+  .no-expand {
+    box-sizing: border-box;
+    width: 0px;
+    min-width: 100%;
+    
+    background: pink;
+    padding: 10px;
+  }
+*/
+
+
+.posttitulo{
+    text-align: center;
+}
+
+.fotog{
+    float: right;
+    margin: 10px
+}
+
+.contenido{
+    text-align: justify;
+    /*
+    margin: 50px
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 30px;
+    */
+}
+
+
+a:link, a:visited {
+    background-color: papayawhip;
+    color: black;
+    /*
+    border: 2px solid coral;
+    */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: peachpuff;
+    color: white;
+}

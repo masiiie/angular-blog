@@ -1,0 +1,51 @@
+<div class="jumbotron">
+    <div class='container' style="text-align: center">
+        <h1 class='titulo_post'>{{post.titulo}}</h1>
+        <span *ngIf="post.entrevistado">
+            *Entrevista a {{post.entrevistado.name1}}
+        </span>
+    </div>
+        
+    <br>
+    <br>
+
+
+    <!--Aqui se ponen las imagenes al principio y quedan alineadas con el texto a la izquierda-->
+    <div class='container'>
+        <div class="row">
+            <div class="col-sm-4">
+                <h6><fa-icon [icon]="reloj"></fa-icon>Por {{post.autor.name1}} {{post.autor.name2}} {{post.autor.apellido1}} {{post.autor.apellido2}} <br> {{post.fecha.toLocaleDateString('es-ES', options) | uppercase}} </h6>
+            </div>
+            <div class="col-sm-4"><span class="badge badge-danger">{{post.tipo}}</span></div>
+        </div>
+
+        <br>
+        <br>
+
+        <figure *ngFor="let foto of post.fotos" class="fotog">
+                <a class="mibotonlink" href="foto"
+                data-size="1600x1067">
+                    <img width="400" height="300" alt="picture" [src]='foto'>
+                    
+                    <!-->
+                    <figcaption class="figure-caption">
+                            Title title title title title title title title title title title title title title
+                            title title title title title title title title title title title title title 
+                            title title title title title title title title title title title title title title title title title
+                            title title title title title title title title title title title title title 
+                            title title
+                    </figcaption>
+                    <-->
+                    <h4 class="figcap">Photo title 
+                    title title title title title title title title title title title title title title title
+                    title title title title title title title title title title title title title 
+                    title title
+                    </h4>
+                    
+                </a>
+            </figure>
+        <div class='contenido'><p>
+            {{post.contenido}}
+        </p></div>       
+    </div>
+</div>
