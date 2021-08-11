@@ -1,2 +1,3 @@
-# Angular-blog
-Blog de periodismo
+# Static blog
+
+Static blog developed in Angular and deployed with Heroku.
